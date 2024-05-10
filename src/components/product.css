@@ -1,0 +1,90 @@
+
+#card{
+    min-height: 510px;
+    /* margin-top: 20px; */
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction:  column;
+    flex-grow: 1;
+    border: 5px !important;
+    border-color: #310b28 !important;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.359);
+
+    top: 10px !important;
+    /* left: 15px !important; */
+    text-decoration: none !important;
+    color: #ffffff !important;
+}
+#card:hover{
+    background-color: rgba(61, 15, 104, 0.279);
+    border-color: #310b28 !important;
+}
+
+#div-img{
+    width: 100%;
+    height: 250px;
+    background-size: contain;
+}
+
+#card img{
+    width: 80% !important; 
+    height: 100% !important;
+    margin-top: 20px !important;
+    margin-left: 30px !important;
+    border-radius : 15px    !important;
+}
+#card-body{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: left; */
+    flex-grow: 1;
+    height: 250px;
+    align-items: flex-start;
+}
+
+#des{
+    min-height: 115px;
+    margin: 5px 1px 0px 2px ;
+}
+
+#end{
+    margin-bottom: 3px;
+    position: relative;
+    align-items: center;
+}
+#bb {
+    position: absolute; 
+
+    /* left: 175px; */
+    bottom: 30px;
+    width: 100px;
+    right: 20px;
+    border: 50 !important;
+    /* margin-left: 20px; */
+    border-color: #fff;
+    color: #fff;
+    background-color: #200016;
+}
+#bb:hover {
+    border-color: #200016;
+    background-color: #fff;
+    color: #200016;
+}
+#h3{
+    margin-top: 10px;
+    margin-right: 10px; /* Adjust margin to create space between h3 and the adjacent element */
+}
+h5{
+    
+    min-height: 30px;
+}
+
+#title{
+    margin-top: 10px;
+}
+/* #tt{
+    
+    text-decoration: none !important;
+ text-decoration-color: rgba(0, 0, 0, 0.359); 
+}  */

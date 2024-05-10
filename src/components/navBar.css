@@ -1,0 +1,39 @@
+
+body{
+    top: 0;
+    width: 100%;
+    z-index:1000;
+}
+#nav{
+    background-color: rgba(83, 77, 89, 0.546) !important;
+    color: #fff !important;
+}
+#space{
+    color: #fff !important;
+    font-size: 21px !important;
+    font-weight: 600;
+}
+
+nav{
+    position :sticky !important;;
+    top: 1px;
+    border-radius: 10px;
+    z-index: 2000;
+}
+
+.d-flex{
+    margin-left: 880px;
+}
+
+#bbb {
+    /* background-color: #10001f; */
+    color: #fff;
+    border-color: #fff;
+    background-color: #200016;
+}
+
+#bbb:hover {
+    background-color: #fff;
+    color: #200016;
+    border-color: #200016;
+}
